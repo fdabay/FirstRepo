@@ -26,5 +26,10 @@ int main()
     ilkd.boy = 100;
     cout << "cevre: " << ilkd.f_cevre() << " alan: " << ilkd.f_alan() << endl;
 
+    dikdortgen ikincid;
+    ikincid.en = 150;
+    ikincid.boy = 200;
+    cout << "cevre: " << ikincid.f_cevre() << " alan: " << ikincid.f_alan() << endl;
+
     return(0);
 }
